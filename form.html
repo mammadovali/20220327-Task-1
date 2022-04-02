@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style></style>
+  </head>
+  <h1>Sign up</h1>
+  <body>
+    <form>
+      <div>
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Type your fullname"
+          value="Caroline Forsey"
+          minlength="3"
+          maxlength="100"
+        />
+      </div>
+      <p>Did you mean cforsey@gmail.com?</p>
+      <div>
+        <input
+          type="email"
+          name="email"
+          placeholder="Type your email"
+          value="cforsey@gmail.com"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <input
+          type="email"
+          name="reenter_email"
+          placeholder="Re-enter email"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <input
+          type="password"
+          name="repassword"
+          id="repassword"
+          placeholder="Re-enter your password"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <input type="checkbox" id="receive_uptade" name="receive_uptade" />
+        <label for="receive_uptade"
+          >Receive our weekly newsletter and other occasional updates</label
+        >
+      </div>
+      <br />
+      <div>
+        <button type="submit">Create account</button>
+      </div>
+    </form>
+  </body>
+</html>
